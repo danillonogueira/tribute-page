@@ -1,0 +1,154 @@
+			
+:root {
+  background-color: hsl(60, 100%, 97%);
+}
+
+body {
+  display: grid;
+  justify-items: center;
+  grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+  grid-row-gap: 60px;
+  border-width: 5px; 
+}
+
+header {
+  display: grid;
+  justify-items: center;
+  grid-area: header;
+  border-width: 5px;         
+}
+
+main {
+  display: grid;
+  justify-items: center;
+  grid-area: main;
+  border-width: 5px;         
+}
+
+footer {
+  display: grid;
+  justify-items: center;
+  grid-area: footer;
+  bottom: 270px;
+  position: relative;  
+}
+
+h1 {
+  display: flex;
+  position: relative;
+  top: 30px;
+  padding: 0px;
+  margin: 0px;
+  font-family: Mukta, sans-serif;
+  color: hsl(240, 100%, 12%);
+  font-size: 80px;
+}
+
+h2 {
+  display: flex;
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+h3 {
+  display: flex;
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  top: 16px;
+  font-size: 40px;
+  color: hsl(240, 100%, 12%);
+}
+
+#img-div {
+  padding: 0px;
+  margin: 0px;
+  top: 10px;
+  justify-content: center; 
+  align-content: center;
+  text-align: center;
+}
+
+#image {
+  display: block;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%; 
+}
+
+#img-caption {
+  margin: 10px 0;
+  font-size: 22px;
+  justify-self: center;
+}
+
+#tribute-info {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  width: 1024px;
+  text-align: justify;
+  bottom: 270px;
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+}				
+      
+#pic1 {
+  display: flex;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  right: 270px;
+  top: 300px;
+  width: 220;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 2px;
+}
+
+
+#pic2 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 2px;
+  width: 700px;
+  align-self: center;
+}
+
+#pic3 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 2px;
+  width: 700px;
+  align-self: center;
+}
+
+#quotation {
+  display: flex;
+  position: relative;
+  font-size: 22px;
+  flex-direction: column;
+  text-align: left;
+  line-height: 1.5;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: hsl(60, 100%, 85%);
+  color: hsl(300, 100%, 15%);
+  border-color: hsl(60, 100%, 97%);
+}	
+
+nav {
+  position: relative;
+  font-size: 40px;
+  top: 60px;
+  font-family: "Dosis", sans-serif;			
+}
